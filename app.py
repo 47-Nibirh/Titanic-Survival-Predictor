@@ -31,4 +31,4 @@ interface = gr.Interface(
     description="Enter passenger details to predict survival"
 )
 
-interface.launch()
+interface.launch(share=True)
